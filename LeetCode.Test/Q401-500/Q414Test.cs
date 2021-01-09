@@ -16,7 +16,7 @@ namespace LeetCode.Test.Q401_500
         public void Test2()
         {
             int result = new Q414().ThirdMax(new[] { 3, 2, 1 });
-            Assert.AreEqual(3, result);
+            Assert.AreEqual(1, result);
         }
     }
 }
