@@ -11,5 +11,12 @@ namespace LeetCode.Test.Q1301_1400
             int result = new Q1395().NumTeams(new[] { 2, 5, 3, 4, 1 });
             Assert.AreEqual(3, result);
         }
+
+        [Test]
+        public void Test2()
+        {
+            int result = new Q1395().NumTeams(new[] { 2, 1, 3 });
+            Assert.AreEqual(0, result);
+        }
     }
 }
