@@ -11,5 +11,12 @@ namespace LeetCode.Test.Q1_100
             int result = new Q3().LengthOfLongestSubstring("jbpnbwwd");
             Assert.AreEqual(4, result);
         }
+
+        [Test]
+        public void Test2()
+        {
+            int result = new Q3().LengthOfLongestSubstring("pwwkew");
+            Assert.AreEqual(3, result);
+        }
     }
 }
