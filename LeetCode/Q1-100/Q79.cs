@@ -17,7 +17,7 @@
             return false;
         }
 
-        public bool BackTracking(char[][] board, string word, int row, int col)
+        private bool BackTracking(char[][] board, string word, int row, int col)
         {
             if (row < 0 || col < 0 || row >= board.Length || col >= board[row].Length)
                 return false;

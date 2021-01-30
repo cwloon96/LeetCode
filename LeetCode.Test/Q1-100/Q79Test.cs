@@ -44,5 +44,15 @@ namespace LeetCode.Test.Q1_100
 
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Test5()
+        {
+            bool result = new Q79().Exist(new char[][] {
+                new char[] { 'a', 'b' },
+                new char[] { 'c', 'd' } }, "cdba");
+
+            Assert.AreEqual(true, result);
+        }
     }
 }
