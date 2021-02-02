@@ -11,5 +11,12 @@ namespace LeetCode.Test.Q201_300
             int result = new Q300().LengthOfLIS(new[] { 10, 9, 2, 5, 3, 7, 101, 18 });
             Assert.AreEqual(4, result);
         }
+
+        [Test]
+        public void Test2()
+        {
+            int result = new Q300().LengthOfLIS(new[] { 7, 7, 7, 7, 7, 7 });
+            Assert.AreEqual(1, result);
+        }
     }
 }
