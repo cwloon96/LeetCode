@@ -32,5 +32,15 @@ namespace LeetCode.Test.Q1_100
 
             Assert.AreEqual(null, result);
         }
+
+        [Test]
+        public void Test3()
+        {
+            ListNode head = new ListNode(1);
+
+            ListNode result = new Q19().RemoveNthFromEnd(head, 0);
+
+            Assert.AreEqual(1, result.val);
+        }
     }
 }
