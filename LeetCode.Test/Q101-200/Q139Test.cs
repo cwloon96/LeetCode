@@ -47,5 +47,12 @@ namespace LeetCode.Test.Q101_200
             bool result = new Q139().WordBreak("aaaaaaa", new List<string> { "aaaa", "aaa" });
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Test7()
+        {
+            bool result = new Q139().WordBreak("abcdefg", new List<string> { "abc", "cde", "fg" });
+            Assert.AreEqual(false, result);
+        }
     }
 }

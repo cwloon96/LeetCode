@@ -13,7 +13,7 @@ namespace LeetCode.Q101_200
             {
                 for (int left = right - 1; left >= 0; left--)
                 {
-                    if(dp[left] && wordDict.Contains(s.Substring(left, right - left)))
+                    if (dp[left] && wordDict.Contains(s.Substring(left, right - left)))
                     {
                         dp[right] = true;
                         break;
