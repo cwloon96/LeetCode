@@ -36,5 +36,11 @@ namespace LeetCode.Test.Q601_700
             Assert.AreEqual(false, result);
         }
 
+        [Test]
+        public void TestNoMutate3()
+        {
+            bool result = new Q605().CanPlaceFlowersNoMutate(new[] { 0 }, 2);
+            Assert.AreEqual(false, result);
+        }
     }
 }
