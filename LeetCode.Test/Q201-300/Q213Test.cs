@@ -18,5 +18,12 @@ namespace LeetCode.Test.Q201_300
             int result = new Q213().Rob(new[] { 1 });
             Assert.AreEqual(1, result);
         }
+
+        [Test]
+        public void Test3()
+        {
+            int result = new Q213().Rob(new[] { 2, 3, 2 });
+            Assert.AreEqual(3, result);
+        }
     }
 }
