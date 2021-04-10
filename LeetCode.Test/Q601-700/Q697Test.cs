@@ -11,5 +11,12 @@ namespace LeetCode.Test.Q601_700
             int result = new Q697().FindShortestSubArray(new[] { 2, 1, 1, 2, 1, 3, 3, 3, 1, 3, 1, 3, 2 });
             Assert.AreEqual(7, result);
         }
+
+        [Test]
+        public void Test2()
+        {
+            int result = new Q697().FindShortestSubArray(new[] { 1 });
+            Assert.AreEqual(1, result);
+        }
     }
 }
