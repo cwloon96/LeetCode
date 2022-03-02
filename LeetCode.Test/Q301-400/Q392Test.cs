@@ -12,5 +12,13 @@ namespace LeetCode.Test.Q301_400
 
             Assert.AreEqual(true, result);
         }
+
+        [Test]
+        public void Test_FollowUp()
+        {
+            bool result = new Q392().IsSubsequence_FollowUp("acb", "ahbgdc");
+
+            Assert.AreEqual(false, result);
+        }
     }
 }
